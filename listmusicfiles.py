@@ -3,7 +3,15 @@ import os
 
 files = os.listdir()
 #print(files)
-jsondata = {}
+f = open("musiclist.json", "r")
+
+jsondata = json.loads(f.read())
+f.close()
+filename = input("filename: ")
+songtitle = input("song title: ")
+jsondata[filename] = songtitle
+
+"""
 for f in files:
   if f.endswith(".mp3") and "wonders-of-creation" in f:
     album = "wonders-of-creation_"
@@ -21,13 +29,15 @@ for f in files:
     #print(songtitle)
     filename = f
     jsondata[filename] = songtitle
-    
+"""    
 #print(jsondata)    
+
 sortedJsondata = dict(sorted(jsondata.items(), key=lambda item: item[1]))
-artist = "For My People"
+
 
 for x in sortedJsondata:
   print(sortedJsondata[x])
+
 with open("musiclist.json", "w") as outfile:
   
   json.dump(sortedJsondata, outfile, indent=4)
