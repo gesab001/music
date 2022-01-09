@@ -3,6 +3,10 @@ import os
 import subprocess
 files = os.listdir()
 #print(files)
+for f in files:
+  if f.endswith(".mp3"):
+    print(f)
+
 f = open("musiclist.json", "r")
 
 jsondata = json.loads(f.read())
@@ -42,5 +46,5 @@ with open("musiclist.json", "w") as outfile:
   
   json.dump(sortedJsondata, outfile, indent=4)
 
-gitcommand = "git add . && git commit -m added " + songtitle  + " && git push --all"
+gitcommand = "git add . && git commit -m  'added "+ songtitle  + "' && git push --all"
 subprocess.call(gitcommand, shell=True)
