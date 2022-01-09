@@ -1,6 +1,6 @@
 import json
 import os
-
+import subprocess
 files = os.listdir()
 #print(files)
 f = open("musiclist.json", "r")
@@ -41,3 +41,6 @@ for x in sortedJsondata:
 with open("musiclist.json", "w") as outfile:
   
   json.dump(sortedJsondata, outfile, indent=4)
+
+gitcommand = "git add . && git commit -m added " + songtitle  + " && git push --all"
+subprocess.call(gitcommand, shell=True)
