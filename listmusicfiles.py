@@ -7,8 +7,14 @@ files = os.listdir()
 #print(files)
 for f in files:
   if f.endswith(".mp3"):
+    #print(f)
+    newName = f.replace(" ", "_")
+    #print(newName)
+    os.rename(f, newName)
+files = os.listdir()
+for f in files:
+  if f.endswith(".mp3"):
     print(f)
-
 f = open("musiclist.json", "r")
 
 jsondata = json.loads(f.read())
