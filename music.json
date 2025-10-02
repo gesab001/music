@@ -1,0 +1,94 @@
+{
+    "music": [
+        {
+            "title": "Come, Thou Fount of Every Blessing",
+            "album": "Blessed",
+            "artist": "For His Glory",
+            "genre": "Instrumental",
+            "source": "come_thou_fount_of_every_blessing.m4a",
+            "image": "album_art.jpg",
+            "trackNumber": 1,
+            "totalTrackCount": 6,
+            "duration": 103,
+            "site": "https://www.youtube.com/audiolibrary/music"
+        },
+        {
+            "title": "Abide with Me",
+            "album": "Blessed",
+            "artist": "Love Chapter",
+            "genre": "Instrumental",
+            "source": "Abide_with_Me_(Karaoke)-UYnnLHXRTJM.mp3",
+            "image": "",
+            "trackNumber": "2",
+            "totalTrackCount": "",
+            "year": "2023",
+            "duration": "262",
+            "site": "https://github.com/gesab001/music/blob/main"
+        },
+        {
+            "title": "Be Thou My Vision",
+            "album": "Fountanview ",
+            "artist": "Fountainview Academy",
+            "genre": "Gospel",
+            "source": "Be_Thou_My_Vision___Fountainview_Academy___Official_Video-7tdwTFenmiY.mp3",
+            "image": "",
+            "trackNumber": "3",
+            "totalTrackCount": "",
+            "year": "2023",
+            "duration": "167",
+            "site": "https://github.com/gesab001/music/blob/main"
+        },
+        {
+            "title": "Oh I Want To Know You More",
+            "album": "Cadet Sisters",
+            "artist": "Cadet Sisters",
+            "genre": "Gospel",
+            "source": "Cadet_Sisters_-_Oh_I_Want_To_Know_You_More-b5YjbOfoDH4.mp3",
+            "image": "",
+            "trackNumber": "4",
+            "totalTrackCount": "",
+            "year": "2023",
+            "duration": "258.7",
+            "site": "https://github.com/gesab001/music/blob/main"
+        },
+        {
+            "title": "Come Thou Fount of Every Blessing",
+            "album": "Blessed",
+            "artist": "Abigail Aga",
+            "genre": "Instrumental",
+            "source": "Come Thou Fount of Every Blessing.m4a",
+            "image": "",
+            "trackNumber": "5",
+            "totalTrackCount": "",
+            "year": "2022",
+            "duration": "200.6",
+            "site": "https://github.com/gesab001/music/blob/main"
+        },
+        {
+            "title": "Come Thou Fount of Every Blessing",
+            "album": "Blessed",
+            "artist": "Love Chapter",
+            "genre": "Instrumental",
+            "source": "come_thou_fount_of_every_blessing.m4a",
+            "image": "",
+            "trackNumber": "1",
+            "totalTrackCount": "",
+            "year": "2023",
+            "duration": "200.6",
+            "site": "https://github.com/gesab001/music/blob/main"
+        },
+        {
+            "title": "Come Thou Fount of Every Blessing preview",
+            "album": "Blessed",
+            "artist": "4HG",
+            "genre": "Instrumental",
+            "source": "come_thou_fount_of_every_blessing_preview.m4a",
+            "image": "",
+            "trackNumber": "7",
+            "totalTrackCount": "",
+            "year": "2023",
+            "duration": "66.8",
+            "site": "https://github.com/gesab001/music/blob/main"
+        }
+    ]
+}
